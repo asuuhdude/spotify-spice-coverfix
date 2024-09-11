@@ -109,6 +109,16 @@
   box-shadow: 0 0 5px rgba(200, 200, 200, .4)
 }
 
+/* THE 'FIX' */
+/* "it just works" */
+.main-nowPlayingWidget-coverArt {
+  position: static;
+  background-color: var(--spice-sidebar);
+}
+.main-nowPlayingWidget-coverArt .cover-art {
+  background-color: var(--spice-sidebar);
+}
+
 /* Expand & Collapse Button */
 .main-coverSlotCollapsed-expandButton {
   top: 50%;
